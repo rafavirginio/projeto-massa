@@ -1,193 +1,205 @@
-/* Reset CSS */
-
-
-/* Aplicar para todos os elementos da página */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    color: #444;
-}
-
-header {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 2rem;
-}
-
-.logo img {
-    width: 211px;
-}
-
-.sign-in {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.sign-in button {
-    border: none;
-}
-
-input[type='text'],
-input[type='email'],
-input[type='password'] {
-    /* 3 seletores que vão receber as mesmas propriedades */
-    padding: 0.5rem;
-    border-radius: 50px;
-    border: 1px solid #ccc;
-    width: 200px;
-    outline: 0;
-}
-
-section {
-    padding: 3rem 0 4rem 0;
-}
-
-h1 {
-    font-size: 3rem;
-    font-weight: normal;
-}
-
-h1.title {
-    margin-bottom: 2rem;
-    font-weight: bold;
-    text-align: center;
-}
-
-.gray {
-    /* classes com o nome gray foram estilizadas */
-    background-color: rgb(197, 148, 243);
-}
-
-.container {
-    max-width: 1000px;
-    margin: auto;
-    padding: 0 1rem;
-}
-
-.hero {
-    width: 60%;
-    margin: auto;
-}
-
-.intro p {
-    margin: 1rem 0;
-    font-size: 1.5rem;
-    font-weight: 100;
-}
-
-.intro .cta {
-    margin: 2rem 0;
-}
-
-.container .cta {
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    flex: wrap;
-}
-
-.button {
-    background-color: #3396f3;
-    color: white;
-    padding: 10px 25px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-right: 5px;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
-}
-
-.button:hover {
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
-}
-
-.primary {
-    background-color: 3396f3;
-    color: white;
-}
-
-.secondary {
-    background-color: white;
-    color: #444;
-}
-
-.cards {
-    display: flex;
-    justify-content: space-between;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    height: 150px;
-    width: 18%;
-    border-radius: 40px;
-    color: white;
-    font-size: 1.7rem;
-}
-
-.card.red {
-    background-color: red;
-}
-
-.card.blue {
-    background-color: blue;
-}
-
-.card.purple {
-    background-color: purple;
-}
-
-.card.yellow {
-    background-color: yellow;
-}
-
-.card.green {
-    background-color: green;
-}
-
-.members {
-    display: flex;
-    justify-content: space-between;
-}
-
-.member img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50px;
-    padding: 8px;
-}
-
-.container .members {
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-footer {
-    background-color: rgb(0, 140, 255);
-}
-
-footer ul {
-    display: flex;
-    padding-top: 3rem;
-    list-style-type: none;
-    justify-content: space-evenly;
-}
-
-footer a {
-    color: white;
-}
-
-footer p.copyright {
-    padding: 3rem 0;
-    text-align: center;
-    color: #ffffffdd;
-}
+            /* Reset CSS */
+        /* Aplicar para todos os elementos da página */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #444;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 2rem;
+        }
+        
+        .logo img {
+            width: 211px;
+        }
+        
+        .sign-in {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .sign-in button {
+            border: none;
+        }
+        
+        input[type='text'],
+        input[type='email'],
+        input[type='password'] {
+            /* 3 seletores que vão receber as mesmas propriedades */
+            padding: 0.5rem;
+            border-radius: 50px;
+            border: 1px solid #ccc;
+            width: 200px;
+            outline: 0;
+        }
+        
+        section {
+            padding: 3rem 0 4rem 0;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            font-weight: normal;
+        }
+        
+        h1.title {
+            margin-bottom: 2rem;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        .gray {
+            /* classes com o nome gray foram estilizadas */
+            background-color: rgb(197, 148, 243);
+            margin: auto;
+        }
+        
+        .container {
+            /* max-width: 1000px; */
+            margin: auto;
+            padding: 0 1rem;
+        }
+        
+        .hero {
+            width: 60%;
+            margin: auto;
+        }
+        
+        .intro p {
+            margin: 1rem 0;
+            font-size: 1.5rem;
+            font-weight: 100;
+        }
+        
+        .intro .cta {
+            margin: 2rem 0;
+        }
+        
+        .container .cta {
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            flex: wrap;
+        }
+        
+        .button {
+            background-color: #3396f3;
+            color: white;
+            padding: 10px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 5px;
+            box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+        }
+        
+        .button:hover {
+            box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+        }
+        
+        .primary {
+            background-color: 3396f3;
+            color: white;
+        }
+        
+        .secondary {
+            background-color: white;
+            color: #444;
+        }
+        
+        .cards {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            height: 150px;
+            width: 18%;
+            border-radius: 40px;
+            color: white;
+            font-size: 1.7rem;
+        }
+        
+        .card.red {
+            background-color: red;
+        }
+        
+        .card.blue {
+            background-color: blue;
+        }
+        
+        .card.purple {
+            background-color: purple;
+        }
+        
+        .card.yellow {
+            background-color: yellow;
+        }
+        
+        .card.green {
+            background-color: green;
+        }
+        
+        .members {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .member img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50px;
+            padding: 8px;
+        }
+        
+        .container .members {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        footer {
+            background-color: rgb(0, 140, 255);
+        }
+        
+        footer ul {
+            display: flex;
+            padding: 50px 30px 0 12px;
+            margin: 0 50px 0 50px;
+            list-style-type: none;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        
+        footer a {
+            color: white;
+        }
+        
+        footer p.copyright {
+            padding: 3rem 0;
+            text-align: center;
+            color: #ffffffdd;
+        }
+        
+        @media screen and (max-width: 500px) {
+            .logo img {
+                width: 180px;
+                margin-right: 5px;
+            }
+            input[type='text'],
+            input[type='email'],
+            input[type='password'] {
+                margin: 3px;
+            }
