@@ -1,5 +1,5 @@
 ## Projeto Massa
-### Projeto Massa, desenvolvido no curso de HTML e CSS GRID consiste em um projeto ficticio para simular uma plataforma em que tanto programadores quanto empresas podem se conectar, gerando assim um networking e até mesmo aquela contratação Massa !!!
+### Projeto Massa, desenvolvido no curso de HTML e CSS GRID, consiste em um projeto ficticio para simular uma plataforma em que tanto programadores quanto empresas podem se conectar, gerando assim um networking e até mesmo aquela contratação Massa !!!
 
 
 ###  👨‍💻 Desktop Version 
